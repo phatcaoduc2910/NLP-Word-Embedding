@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+requirements.txt text eol=lf
+data/corpus_tokenized.txt -text
+*.gz -text
+*.model -text
+*.kv -text
+*.npz -text
+*.png -text
+*.pdf -text
