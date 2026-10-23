@@ -1,0 +1,14 @@
+{
+  "articles_used": 1999,
+  "duplicates_removed": 0,
+  "sentences": 214886,
+  "tokens_before_min_count": 3805712,
+  "raw_sha256": "0ccb06274bee748bbce5646b05b7917f706c2e1d7a179c9a1c962bbaecdb3a23",
+  "corpus_sha256": "a04e8b0d97cd30bf1f405412fd907bfea8c4535e62d424039b709a9552812220",
+  "preprocessing_seconds": 49.5,
+  "tokenizer": "pyvi.ViTokenizer 0.1.1",
+  "normalization": "NFC; lowercase after segmentation",
+  "sentence_split": "Approximate regex: punctuation and newline",
+  "filtering": "URLs, numbers and punctuation removed; at least 3 tokens per sentence",
+  "stopwords": "Kept; frequent-word subsampling handled by Word2Vec"
+}

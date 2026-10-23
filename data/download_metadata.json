@@ -1,0 +1,12 @@
+{
+  "dataset": "wikimedia/wikipedia",
+  "config": "20231101.vi",
+  "split": "train",
+  "row_start": 0,
+  "row_end": 1999,
+  "n_articles": 2000,
+  "selection": "First 2000 rows; convenience sample, not random",
+  "source": "https://huggingface.co/datasets/wikimedia/wikipedia",
+  "license": "CC BY-SA 3.0 / GFDL, per dataset card",
+  "sha256": "0ccb06274bee748bbce5646b05b7917f706c2e1d7a179c9a1c962bbaecdb3a23"
+}
