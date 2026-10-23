@@ -1,0 +1,118 @@
+{
+  "pairs": [
+    {
+      "word1": "học_sinh",
+      "word2": "sinh_viên",
+      "cosine": 0.7977957725524902,
+      "neighbor_rank": 1,
+      "count1": 265,
+      "count2": 368
+    },
+    {
+      "word1": "giáo_viên",
+      "word2": "dạy",
+      "cosine": 0.6725084781646729,
+      "neighbor_rank": 1,
+      "count1": 85,
+      "count2": 409
+    },
+    {
+      "word1": "bác_sĩ",
+      "word2": "y_sĩ",
+      "cosine": 0.7116400599479675,
+      "neighbor_rank": 1,
+      "count1": 259,
+      "count2": 12
+    },
+    {
+      "word1": "bệnh_viện",
+      "word2": "đa_khoa",
+      "cosine": 0.8078461289405823,
+      "neighbor_rank": 1,
+      "count1": 441,
+      "count2": 59
+    },
+    {
+      "word1": "máy_tính",
+      "word2": "phần_cứng",
+      "cosine": 0.7938422560691833,
+      "neighbor_rank": 1,
+      "count1": 1636,
+      "count2": 194
+    },
+    {
+      "word1": "điện_thoại",
+      "word2": "email",
+      "cosine": 0.7226036787033081,
+      "neighbor_rank": 1,
+      "count1": 167,
+      "count2": 83
+    },
+    {
+      "word1": "ô_tô",
+      "word2": "xe_hơi",
+      "cosine": 0.7751795053482056,
+      "neighbor_rank": 1,
+      "count1": 236,
+      "count2": 70
+    },
+    {
+      "word1": "bóng_đá",
+      "word2": "đội_tuyển",
+      "cosine": 0.8137153387069702,
+      "neighbor_rank": 1,
+      "count1": 546,
+      "count2": 136
+    },
+    {
+      "word1": "âm_nhạc",
+      "word2": "vũ_đạo",
+      "cosine": 0.7241278886795044,
+      "neighbor_rank": 1,
+      "count1": 535,
+      "count2": 17
+    },
+    {
+      "word1": "toán_học",
+      "word2": "giải_tích",
+      "cosine": 0.7319132089614868,
+      "neighbor_rank": 1,
+      "count1": 1028,
+      "count2": 79
+    }
+  ],
+  "words": [
+    "học_sinh",
+    "sinh_viên",
+    "giáo_viên",
+    "dạy",
+    "bác_sĩ",
+    "y_sĩ",
+    "bệnh_viện",
+    "đa_khoa",
+    "máy_tính",
+    "phần_cứng",
+    "điện_thoại",
+    "email",
+    "ô_tô",
+    "xe_hơi",
+    "bóng_đá",
+    "đội_tuyển",
+    "âm_nhạc",
+    "vũ_đạo",
+    "toán_học",
+    "giải_tích"
+  ],
+  "explained_variance_ratio": [
+    0.18900291621685028,
+    0.1365862637758255,
+    0.13452592492103577
+  ],
+  "pca_fit_scope": "Only unique words belonging to the 10 reported pairs; L2 normalized",
+  "tsne": {
+    "perplexity": 5.0,
+    "seed": 42,
+    "max_iter": 1500
+  },
+  "selection": "One nearest available neighbor per predefined query; not global top 10"
+}

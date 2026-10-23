@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 5,
+    "sg": 1,
+    "negative": 10,
+    "hs": 0,
+    "sample": 0.001,
+    "ns_exponent": 0.75,
+    "alpha": 0.025,
+    "min_alpha": 0.0001,
+    "epochs": 15,
+    "workers": 1,
+    "seed": 42,
+    "sorted_vocab": 1,
+    "shrink_windows": true
+  },
+  "initialization_hash": "CRC32 UTF-8",
+  "vocabulary_size": 23788,
+  "vector_shape": [
+    23788,
+    100
+  ],
+  "corpus": {
+    "articles_used": 1999,
+    "duplicates_removed": 0,
+    "sentences": 214886,
+    "tokens_before_min_count": 3805712,
+    "raw_sha256": "0ccb06274bee748bbce5646b05b7917f706c2e1d7a179c9a1c962bbaecdb3a23",
+    "corpus_sha256": "a04e8b0d97cd30bf1f405412fd907bfea8c4535e62d424039b709a9552812220",
+    "preprocessing_seconds": 49.5,
+    "tokenizer": "pyvi.ViTokenizer 0.1.1",
+    "normalization": "NFC; lowercase after segmentation",
+    "sentence_split": "Approximate regex: punctuation and newline",
+    "filtering": "URLs, numbers and punctuation removed; at least 3 tokens per sentence",
+    "stopwords": "Kept; frequent-word subsampling handled by Word2Vec"
+  },
+  "effective_training_tokens": 46494328,
+  "raw_training_tokens": 57085680,
+  "training_seconds": 281.44,
+  "versions": {
+    "python": "3.12.14",
+    "gensim": "4.4.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.6.1",
+    "matplotlib": "3.11.2",
+    "pyvi": "0.1.1"
+  },
+  "metadata_recovery": "Recovered from saved model after library import failed during metadata export; no retraining or manual score edits."
+}
